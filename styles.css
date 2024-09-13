@@ -1,0 +1,350 @@
+/* Basic Reset and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+header {
+    background-color: #d90e5c;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    margin: auto;
+    margin-top: 120px;
+    width: 50%;
+    /* border: 2px solid #d90e5c; */
+    border-radius: 1cm;
+    background: #fffffff5;
+    /* background-image: linear-gradient(#d90e5cea,#f65593); */
+    text-align: center;
+    padding: 50px;
+    /* height: 200px; */
+    width: 400px;
+    /* padding-top: 60px; */
+
+}
+.hero h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.BG{
+    background-image: url(background_img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.about{
+    margin: auto;
+    margin-top: 120px;
+    width: 70%;
+    /* border: 2px solid #d90e5c; */
+    border-radius: 1cm;
+    background: #fffffff5;
+    /* background-image: linear-gradient(#d90e5cea,#f65593); */
+    text-align: center;
+    padding: 50px;
+    /* height: 200px; */
+    width: 800px;
+    /* padding-top: 60px; */ 
+}
+.about h2{
+    color: #d90e5c;
+}
+.about h1{
+    font-size: xx-large;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d90e5c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #d90e5c;
+    border: 2px solid #d90e5c;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #d90e5c;
+    color: white;
+    text-align: center;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+/* Authentication Form Styles */
+.auth-form {
+    max-width: 350px;
+    margin: 2em auto;
+    padding: 3em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Product List Styles */
+.product-list {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.product {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.5em;
+}
+
+.product h2 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.product span {
+    display: block;
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}
+
+.product .btn {
+    background-color: #007bff;
+    border: none;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    height: 400px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 8px;
+}
+
+.product-item img:hover {
+    zoom: 120%;
+}
+
+.product-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.product-item button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.product-item button:hover{
+    background-color: #fff;
+    color: #28a745;
+}
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #d90e5c;
+}
+
+.contact-form {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color:#d90e5c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color:#d90e5c;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info h3 {
+    color: #d90e5c;
+}
+
+.contact-info p {
+    margin: 8px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #d90e5c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        font-size: 14px;
+    }
+
+    .contact-form button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-form {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        font-size: 12px;
+    }
+
+    .contact-form button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
